@@ -1,2 +1,2 @@
-var CrossBrowserTestingService = require('./build/CBT-service')
+var CrossBrowserTestingService = require('./lib/CBT-Service')
 module.exports = new CrossBrowserTestingService();
