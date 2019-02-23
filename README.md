@@ -3,6 +3,8 @@ WebdriverIO CrossBrowserTesting Service
 
 > A WebdriverIO service that manages local tunnel and job metadata for CrossBrowserTesting users.
 
+Forked from the official version in order to get it up and running.
+
 ## Installation
 
 Simply run:
@@ -19,6 +21,8 @@ npm install --save-dev wdio-crossbrowsertesting-service
 // wdio.conf.js
 export.config = {
   // ...
+  hostname: 'hub.crossbrowsertesting.com',
+  port: 80,
   services: ['crossbrowsertesting'],
   user: process.env.YOUR_USERNAME,
   key: process.env.YOUR_ACCESS_KEY,

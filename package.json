@@ -2,7 +2,7 @@
   "name": "wdio-crossbrowsertesting-service",
   "version": "0.0.1",
   "description": "A WebdriverIO service that manages local tunnel and job metadata for CrossBrowserTesting users.",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crossbrowsertesting/wdio-crossbrowsertesting-service.git"
@@ -17,7 +17,8 @@
     "url": "https://github.com/crossbrowsertesting/wdio-crossbrowsertesting-service/issues"
   },
   "homepage": "https://github.com/crossbrowsertesting/wdio-crossbrowsertesting-service#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@wdio/logger": "^5.6.0",
     "cbt_tunnels": "^0.9.7"
   }
 }
